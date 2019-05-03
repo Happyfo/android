@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" registration form"
+        android:layout_gravity="center"
+        android:layout_marginRight="45dp"
+        android:textSize="40dp"
+        android:paddingLeft="30dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/shop"
+        android:paddingLeft="70dp"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="firstname"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="lastname"
+        android:textStyle="bold"
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="200dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" eneter your password"
+        android:textStyle="bold"
+
+        android:inputType="textPassword"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="confirm_ password"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-45dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" enter your email"
+        android:textStyle="bold"
+
+        android:inputType="textEmailAddress"
+
+        />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:text="REGISTER" />
+
+
+    />
+
+</LinearLayout>
